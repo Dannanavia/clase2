@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'front';
+
+public  number :number=0;
+public increment (){
+  this.number++;
+}
+public decremet (){
+  this.number--;
+}
 }
